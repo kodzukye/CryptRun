@@ -15,6 +15,40 @@ Le joueur progresse de salle en salle, élimine les ennemis et collecte des arme
  
 ---
 
+## Mécaniques développées
+ 
+Voici les systèmes qu'on a conçu et implémentés en Blueprint :
+ 
+### Character Controller
+- Déplacements fluides en vue du dessus (Top Down)
+- Gestion des animations liées aux mouvements
+- Rotation du personnage orientée vers la visée
+ 
+### Système de caméra
+- Caméra Top Down fixée au-dessus du joueur
+ 
+### Système de combat
+- Tirs et attaques dirigés vers la cible visée
+- Gestion des dégâts
+ 
+### Système de drop & pickup d'arme
+- Le joueur peut ramasser les armes au sol
+- Gestion du changement d'arme
+ 
+### Système de collectables (bonus / malus)
+- Objets ramassables dispersés dans les salles
+- Effets variés sur le joueur : bonus (vie, vitesse, dégâts...) ou malus
+- Gestion des effets temporaires ou permanents sur le personnage
+ 
+### IA Ennemis
+- Détection et poursuite du joueur
+- Comportements d'attaque et de patrouille
+ 
+### Système de checkpoint
+- Respawn du joueur au dernier checkpoint atteint
+
+---
+
 ## Technologies utilisées
  
 | Outil | Usage |
@@ -25,7 +59,7 @@ Le joueur progresse de salle en salle, élimine les ennemis et collecte des arme
 
  ---
  
-## 📦 Code source complet
+## Code source complet
  
 Le projet Unreal Engine complet est volumineux et hébergé sur mon serveur Git personnel :
  
